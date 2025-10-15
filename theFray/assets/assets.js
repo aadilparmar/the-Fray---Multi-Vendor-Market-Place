@@ -22,7 +22,7 @@ import profile_pic2 from "./profile_pic2.jpg"
 import profile_pic3 from "./profile_pic3.jpg"
 
 export const assets = {
-    upload_area, hero_model_img,
+    upload_area, hero_model_img,happy_store,
     hero_product_img1, hero_product_img2, gs_logo,
     product_img1, product_img2, product_img3, product_img4, product_img5, product_img6,
     product_img7, product_img8, product_img9, product_img10, product_img11, product_img12,
@@ -253,15 +253,15 @@ export const ourSpecsData = [
 export const addressDummyData = {
     id: "addr_1",
     userId: "user_1",
-    name: "John Doe",
-    email: "johndoe@example.com",
-    street: "123 Main St",
-    city: "New York",
-    state: "NY",
-    zip: "10001",
-    country: "USA",
-    phone: "1234567890",
-    createdAt: 'Sat Jul 19 2025 14:51:25 GMT+0530 (India Standard Time)',
+    name: "Aadil Parmar",
+    email: "aadilparmar@example.com",
+    street: "A-51",
+    city: "Rajkot",
+    state: "Gujarat",
+    zip: "360001",
+    country: "India",
+    phone: "7405722180",
+    createdAt: 'Sat Sept 15 2025 14:51:25 GMT+0530 (India Standard Time)',
 }
 
 export const couponDummyData = [
@@ -274,8 +274,8 @@ export const couponDummyData = [
 
 export const dummyUserData = {
     id: "user_31dQbH27HVtovbs13X2cmqefddM",
-    name: "GreatStack",
-    email: "greatstack@example.com",
+    name: "Aadil Parmar",
+    email: "aadilparmar@example.com",
     image: gs_logo,
     cart: {}
 }
@@ -325,34 +325,19 @@ export const orderDummyData = [
 ]
 
 export const storesDummyData = [
-    {
-        id: "cmemkb98v0001tat8r1hiyxhn",
-        userId: "user_31dOriXqC4TATvc0brIhlYbwwc5",
-        name: "GreatStack",
-        description: "GreatStack is the education marketplace where you can buy goodies related to coding and tech",
-        username: "greatstack",
-        address: "123 Maplewood Drive Springfield, IL 62704 USA",
-        status: "approved",
-        isActive: true,
-        logo: gs_logo,
-        email: "greatstack@example.com",
-        contact: "+0 1234567890",
-        createdAt: "2025-08-22T08:22:16.189Z",
-        updatedAt: "2025-08-22T08:22:44.273Z",
-        user: dummyUserData,
-    },
+   
     {
         id: "cmemkqnzm000htat8u7n8cpte",
         userId: "user_31dQbH27HVtovbs13X2cmqefddM",
         name: "Happy Shop",
         description: "At Happy Shop, we believe shopping should be simple, smart, and satisfying. Whether you're hunting for the latest fashion trends, top-notch electronics, home essentials, or unique lifestyle products — we've got it all under one digital roof.",
         username: "happyshop",
-        address: "3rd Floor, Happy Shop , New Building, 123 street , c sector , NY, US",
+        address: "A51 satyam park 3rd street rajkot , gujarat",
         status: "approved",
         isActive: true,
         logo: happy_store,
         email: "happyshop@example.com",
-        contact: "+0 123456789",
+        contact: "+91 8054307879",
         createdAt: "2025-08-22T08:34:15.155Z",
         updatedAt: "2025-08-22T08:34:47.162Z",
         user: dummyUserData,

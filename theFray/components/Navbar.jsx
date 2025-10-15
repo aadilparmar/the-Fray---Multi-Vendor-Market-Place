@@ -188,7 +188,7 @@ const Navbar = () => {
             <Link href="/">Home</Link>
             <CategoriesDropdown />
             <ResourcesDropdown />
-            <Link href="/shop">Shop</Link>
+            <Link href="/create-store">Become Supplier</Link>
 
             <form
               onSubmit={handleSearch}
